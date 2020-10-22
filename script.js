@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // var sunnyAudio = new Audio('screaming-sun-rick-and-morty.mp3');
+  // var sunnyAudio = new Audio('audio/screaming-sun-rick-and-morty.mp3');
   // sunnyAudio.play();
   var clickCount = 0;
   var imageUrl =
@@ -8,7 +8,6 @@ $(document).ready(function () {
     "https://cdn-images-1.medium.com/max/1280/1*BArwiczvwUqxWu9OB1e7Sw.png";
   var endPageImg =
     "https://imgix.bustle.com/inverse/ab/5a/e8/e9/8a19/45d7/899b/75356b021017/the-quest-for-szechuan-sauce-has-never-looked-so-sweet.gif";
-    // "https://i.kinja-img.com/gawker-media/image/upload/t_original/vx7nhukveyirfjyzyibn.png";
   var imageArr = [
     "https://c4.wallpaperflare.com/wallpaper/588/5/300/rick-and-morty-toilets-hd-wallpaper-thumb.jpg",
 
@@ -17,12 +16,13 @@ $(document).ready(function () {
     "https://images6.alphacoders.com/633/thumb-1920-633294.png",
 
     "https://filmdaily.co/wp-content/uploads/2018/06/rick-and-morty-pluto-1024x475.jpg",
+
     "https://images6.alphacoders.com/909/thumb-1920-909641.png",
   ];
-  var schezwanAudio = new Audio("schezwan-sauce-speech-rick-and-morty-season-3 (1).mp3")
-  var myManAudio = new Audio("my-man.mp3");
+  var schezwanAudio = new Audio("audio/schezwan-sauce-speech-rick-and-morty-season-3 (1).mp3")
+  var myManAudio = new Audio("audio/my-man.mp3");
   var evilMortyAudio = new Audio(
-    "rick-and-morty-soundtrack-evil-mortys-theme-qua.mp3"
+    "audio/rick-and-morty-soundtrack-evil-mortys-theme-qua.mp3"
   );
 
   setBgImg(imageUrl);
@@ -94,12 +94,6 @@ $(document).ready(function () {
         var cardImgEl = $("<img>");
         cardImgEl.addClass("card-img-top mx-auto img-fluid");
         cardImgEl.attr("src", response[i].image);
-        // cardImgEl.attr("height", "200px");
-        // cardImgEl.attr("width", "200px");
-        // $("#card-front-" + [i + 1]).addClass("card");
-        // $("#card-back-" + [i + 1]).addClass("card");
-        // $("#card-front-" + [i + 1]).attr("style", "height: 15rem;");
-        // $("#card-back-" + [i + 1]).attr("style", "height: 15rem;");
         $("#card-back-" + [i + 1]).attr(
           "style",
           "font-family: MuseoModerno, cursive;"
@@ -139,14 +133,10 @@ $(document).ready(function () {
   function setBgImg(URL) {
     $(".jumbotron").css("background-image", "url(" + URL + ")");
     $(".jumbotron").css("background-size", "100% 50%");
-    // $(".jumbotron").css("background-position", "center center");
     $(".jumbotron").css("background-attachment", "fixed");
-    // $(".jumbotron").css("background-repeat", "no");
     $(".jumbotron").css("height", "50vh");
-    // $("content").css("width", "50%");
-    // $("content").css("padding", "40px");
-    // $("content").css("margin", "100px auto");
   }
+  
   function clearCards() {
     for (i = 0; i < 4; i++) {
       $("#card-front-" + [i + 1]).empty();
