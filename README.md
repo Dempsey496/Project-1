@@ -40,9 +40,9 @@ We designed an application based on the Rick and Morty Television show. Once, th
 
 ## Installation
 
-You can access the application by following this link: https://adellis95.github.io/Project-1/
+You can access the application by following this link: https://dempsey496.github.io/RickandMortyCards/
 
-Or go to my GitHub page and clone my Project-1 repository from here : https://github.com/Adellis95
+Or go to my GitHub page and clone my Project-1 repository from here : https://github.com/Dempsey496/RickandMortyCards
 
 Then you pull the cloned repository into your terminal/GitBash by using the "git pull (git@github.com:Adellis95/Project-1.git)
 
@@ -66,14 +66,14 @@ Back End - Claude and Dempsey
 
 ## Screenshot
 
-![Screenshot](application-screenshot.png)
-![Screenshot](Second-Page.png)
-![Screenshot](Third-Page.png)
-![Screenshot](Fourth-Page.png)
-![Screenshot](Fifth-Page.png)
-![Screenshot](Sixth-Page.png)
-![Screenshot](Seventh-Page.png)
-![Screenshot](End-Page.png)
+![Screenshot](screenshots/application-screenshot.png)
+![Screenshot](screenshots/Second-Page.png)
+![Screenshot](screenshots/Third-Page.png)
+![Screenshot](screenshots/Fourth-Page.png)
+![Screenshot](screenshots/Fifth-Page.png)
+![Screenshot](screenshots/Sixth-Page.png)
+![Screenshot](screenshots/Seventh-Page.png)
+![Screenshot](screenshots/End-Page.png)
 
 ## License
 
